@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usamah's Aesthetic Web | Single Page</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="nav-content container">
+            <a href="#home" class="logo">usaa.web</a>
+            <nav class="nav-menu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About Me</a>
+                <a href="#music" class="nav-link">Music</a>
+                <a href="#gallery" class="nav-link">Gallery</a>
+                <a href="#videos" class="nav-link">Videos</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-section section" id="home">
+            <div class="container">
+                <div class="hero-section">
+                    <div class="hero-text">
+                        <h1 class="hero-title">Perkenalkan namaku Usamah</h1>
+                        <p class="hero-subtitle">you can call me Usaa</p>
+                        <p class="hero-description">Selamat datang di laman personal saya yang didesain dengan sentuhan soft blue aesthetic dan animasi halus. Mari menjelajah!</p>
+                    </div>
+                    <div class="hero-image-container">
+                        <img src="images/profil.jpg" alt="Foto Profil Usamah" class="profile-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-section section" id="about">
+            <div class="container about-content">
+                <h2>About Me 💙</h2>
+                
+                <div class="bio-card">
+                    <p class="bio-text">
+                        Haiii namaku Usamah. aku adalah seorang pelajar yang sedang mencoba menemukan hal-hal baru. 
+                        akuu percaya bahwa kalau hidup tuh wajib dijalani dengan keseimbangan antara hobi, aspirasi, dan orang-orang terkasih. 
+                        Filosofi hidup saya: terus belajar dan sebarkan energi positif 😎✌️.
+                    </p>
+                </div>
+
+                <div class="info-grid">
+                    <div class="info-item">
+                        <strong>Nama Lengkap</strong>
+                        <span>Usamah</span>
+                    </div>
+                    <div class="info-item">
+                        <strong>Umur</strong>
+                        <span>15 Tahun</span>
+                    </div>
+                    <div class="info-item">
+                        <strong>Hobi</strong>
+                        <span>cyling,listening music,chat with ais, and reading</span>
+                    </div>
+                    <div class="info-item">
+                        <strong>Cita-cita</strong>
+                        <span>Software Engineer Profesional</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="music-section section" id="music">
+            <div class="container music-content">
+                <h2>My Favorite Music 🎧</h2>
+                
+                <div class="player-card">
+                    <img src="images/oneD.jpeg" alt="Music Thumbnail Aesthetic" class="music-thumbnail">
+                    <h3>Where We Are</h3>
+                    <p>Favorite Track of the Month</p>
+                    
+                    <audio controls>
+                        <source src="music/where we are.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery-section section" id="gallery">
+            <div class="container">
+                <h2>My Gallery 📸</h2>
+                
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="images/picture (1).jpg" alt="Picture 1">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/picture (2).jpg" alt="Picture 2">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/picture (3).png" alt="Picture 3">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/picture (4).png" alt="Picture 4">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/picture (5).jpg" alt="Picture 5">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/picture (6).jpg" alt="Picture 6">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="videos-section section" id="videos">
+            <div class="container">
+                <h2>My editing Videos🎥</h2>
+                
+                <div class="video-list">
+                    <div class="video-item" data-video-src="videos/videos (1).mp4">
+                        <img src="images/thumbnail (1).png" alt="Thumbnail Video 1">
+                        <div class="video-info">Video 1: junior high school</div>
+                    </div>
+                    <div class="video-item" data-video-src="videos/videos (2).mp4">
+                        <img src="images/thumbnail (2).png" alt="Thumbnail Video 2">
+                        <div class="video-info">Video 2: my pictures</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section section" id="contact">
+            <div class="container">
+                <h2>contact me ✉️</h2>
+                
+                <div class="contact-grid">
+                    <a href="https://www.instagram.com/ucmusmh" target="_blank" class="contact-link">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4c0 3.2-2.6 5.8-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8C2 4.6 4.6 2 7.8 2zm-.2 2.7l.03 0h8.34c2.5 0 4.53 2.03 4.53 4.53v8.34c0 2.5-2.03 4.53-4.53 4.53H7.6c-2.5 0-4.53-2.03-4.53-4.53V7.6c0-2.5 2.03-4.53 4.53-4.53zm9.4 2.2a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4zM12 9a4.8 4.8 0 1 0 0 9.6 4.8 4.8 0 0 0 0-9.6zm0 1.2a3.6 3.6 0 1 1 0 7.2 3.6 3.6 0 0 1 0-7.2z"/>
+                        </svg>
+                        <span>Instagram</span>
+                    </a>
+
+                    <a href="https://wa.me/+6288219667400" target="_blank" class="contact-link">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M12 2C6.48 2 2 6.48 2 12c0 3.12 1.3 5.94 3.38 7.95L4 22l3.22-.88C8.56 21.6 10.24 22 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zM12 20c-1.74 0-3.35-.49-4.75-1.35L6.47 18.72l-.4-.4L4.85 19.1c-1.6-1.55-2.55-3.7-2.55-5.9 0-4.42 3.58-8 8-8s8 3.58 8 8c0 4.42-3.58 8-8 8zm4.5-5.5c-.25-.12-.86-.42-.99-.47s-.23-.07-.33.07c-.1.15-.38.47-.46.56s-.16.12-.29.05c-.65-.32-1.27-.66-1.81-1.07-.46-.35-.91-.77-1.3-1.15-.3-.3-.6-.62-.9-1s-.4-.7-.1-.95c.07-.05.15-.12.22-.19s.15-.17.22-.3c.07-.12.07-.22.04-.32s-.1-.23-.22-.52c-.12-.29-.25-.56-.3-.67s-.1-.2-.3-.25c-.2-.05-.42-.05-.65-.05c-.22 0-.46.07-.68.3s-.57.65-.65.77s-.1.17-.15.25c-.2.25-.38.56-.5.77s-.2.4-.2.62c0 .42.27.8.56 1.15s.68.75 1.05 1.05c.37.3.75.52 1.15.68s.8.27 1.2.27c.4 0 .78-.05 1.1-.12s.82-.32 1.1-.55c.27-.22.48-.48.65-.68s.27-.4.27-.62c0-.22-.1-.4-.2-.5s-.4-.2-.6-.3z"/>
+                        </svg>
+                        <span>WhatsApp</span>
+                    </a>
+
+                    <a href="mailto:ucemusamah@gmail.com" class="contact-link">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6zm-2 0l-8 5l-8-5h16zm0 12H4V8l8 5l8-5v10z"/>
+                        </svg>
+                        <span>Email</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="myModal" class="modal">
+        <span class="close-btn">&times;</span>
+        <div class="modal-content">
+            </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
